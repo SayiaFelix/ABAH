@@ -7,53 +7,14 @@
 body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 
 
-/* collaboration container */
+/* Service section */
 
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-
-.mySlides {
-    display: none;
-}
-
-.text {
-    position: absolute;
-    bottom: 1%;
-    text-align: center;
-}
-
-
-/* Fading animation */
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .5
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
+.Services h4 {
+    color: black;
 }
 
 
@@ -92,7 +53,41 @@ body {
     border: none;
 }
 
+.card3 p {
+    font-weight: 500;
+}
+
+.card3 i {
+    font-size: 15px;
+    color: black;
+}
+
+#card3-span {
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+}
+
 .col-4 i {
     font-size: 50px;
     margin-top: 45%;
+}
+
+.Testimonial-section {
+    background: url("../images/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+}
+
+.Testimonial-section h3 {
+    color: black;
+    font-size: 20px;
+}
+
+.Testimonial-section h5 {
+    color: black;
+    font-size: 15px;
 }
