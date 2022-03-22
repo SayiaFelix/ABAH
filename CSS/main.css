@@ -16,19 +16,65 @@ body {
 }
 .card {
   position: relative;
-  width: 340px;
-  height: 450px;
+  width: 240px;
+  height: 400px;
   background: #fff;
   overflow: hidden;
   border-radius: 10px;
   margin: 20px;
+  box-shadow: 2px 2px 8px;
 }
 .card .image {
   position: absolute;
   top: -190px;
-  left: 50%;
-  width: 500px;
-  height: 500px;
-  transform: translateX(-50%);
+  width: 80vh;
+  height: 60vh;
+  transform: translateX(-55%);
   clip-path: circle();
+}
+.card .image::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -16px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 0 20px rgba(19, 18, 18, 0.5);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+.image {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 240px;
+  height: 210px;
+}
+.imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.imgBox:hover {
+  transform: scale(1.2);
+}
+.card .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  padding: 20px 30px;
+}
+.card .social-icon {
+  size: 20px;
+  color: blue;
+  top: 0;
+  margin-top: 50%;
 }
