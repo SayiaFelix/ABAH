@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    padding: 2%;
+    text-align: center;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding:4%
+}
+
+.lifestyle p, .entertainment p, .fashion p{
+    padding: 10%;
+    text-align: center;
+}
+
+.section{
+    display: block;
+}
+
+.sub-section1, .sub-section2{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
