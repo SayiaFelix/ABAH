@@ -29,3 +29,14 @@ h3{
     justify-content: space-around;
     padding: 2%;
 }
+
+.profile1{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.details{
+    font-size: larger;
+    padding-top: 5%;
+}
