@@ -18,29 +18,25 @@ body {
 
 /* HEADER */
 
-#topnav {
-    margin-top: 13%;
-}
-
-#topnav h1 {
-    font-size: 40px;
-}
-
-#topnav p {
-    font-size: 20px;
-    color: black;
-}
-
 .navbar-nav {
     text-align: center;
     float: right;
 }
 
 .navbar-nav a:hover {
-    border-bottom: 2px solid rgb(59, 59, 59);
+    border-bottom: 2px solid rgb(252, 249, 249);
     border-radius: 20px;
     text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
 }
+
+.logo img {
+    border-radius: 10px;
+}
+
+
+/* Service part section1 */
 
 #service {
     margin-top: 10%;
