@@ -30,10 +30,15 @@ h3{
     padding: 2%;
 }
 
+#influencers, .section{
+    display: none;
+}
+
 .profile{
     display: flex;
     justify-content: space-around;
     padding: 5%;
+    display: none;
 }
 
 .details{
