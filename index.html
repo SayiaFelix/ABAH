@@ -35,26 +35,53 @@
   <body>
     <!--about-landing-->
     <div class="jumbotron">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>
-              WE ARE
-              <span style="font-family: 'monoton'">AFRI-BRAND</span>AGENCY
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-              Qui pariatur voluptates tempora animi incidunt ab voluptas ducimus
-              consequatur magnam possimus.
-            </p>
-            <br />
-            <a href="#" class="btn btn-primary">JOIN US</a>
-          </div>
+      <div class="container about">
+        <div class="col-6">
+          <img src="/about-images/creative.png" alt="" />
+        </div>
+        <div class="col-6 text-center mt-5 fs-1">
+          <h1>
+            WE ARE
+            <span style="font-family: 'monoton'">AFRI-BRAND</span>AGENCY
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Qui pariatur voluptates tempora animi incidunt ab voluptas ducimus
+            consequatur magnam possimus.
+          </p>
+          <br />
+          <a href="#" class="btn btn-primary">JOIN US</a>
         </div>
       </div>
     </div>
-   
+    <!--our achievements-->
+    <div class="container1">
+      <div class="header"><h2 class="text-center">OUR ACHIEVEMENTS</h2></div>
+      <div class="counter-wrp">
+        <ul>
+          <li>
+            <i class="fa fa-briefcase"></i>
+            <p id="number1" class="number">31</p>
+            <span></span>
+            <p>Projects Done</p>
+          </li>
+          <li>
+            <i class="fa fa-smile-o"></i>
+            <p id="number2" class="number">89</p>
+            <span></span>
+            <p>Happy Clients</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-medal"></i>
+            <p id="number3" class="number">7</p>
+            <span></span>
+            <p>Awards Received</p>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!--our team section-->
-    <div class="container2">
+    <div class="container">
       <div class="row">
         <div class="header">
           <h1>MEET THE TEAM</h1>
@@ -71,7 +98,7 @@
             </div>
           </div>
           <div class="content">
-            <h3>JONH </h3>
+            <h3>JONH</h3>
             <p>MANAGING DIRECTOR</p>
           </div>
           <div class="social-icon">
@@ -105,7 +132,7 @@
             </div>
           </div>
           <div class="content">
-            <h3>DAVID </h3>
+            <h3>DAVID</h3>
             <p>TECH GEEK</p>
           </div>
           <div class="social-icon">
@@ -134,6 +161,38 @@
         </div>
       </div>
     </div>
+    <script>
+      var project = setInterval(projectDone, 10);
+      var clients = setInterval(happyClients, 10);
+      var coffee = setInterval(awardsReceived, 10);
+      let count1 = 1;
+      let count2 = 1;
+      let count3 = 1;
+
+      function projectDone() {
+        count1++;
+        document.querySelector("#number1").innerHTML = count1;
+        if (count1 == 31) {
+          clearInterval(project);
+        }
+      }
+
+      function happyClients() {
+        count2++;
+        document.querySelector("#number2").innerHTML = count2;
+        if (count2 == 89) {
+          clearInterval(clients);
+        }
+      }
+
+      function awardsReceived() {
+        count3++;
+        document.querySelector("#number3").innerHTML = count3;
+        if (count3 == 7) {
+          clearInterval(coffee);
+        }
+      }
+    </script>
   </body>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script

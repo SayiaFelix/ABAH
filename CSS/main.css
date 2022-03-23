@@ -1,7 +1,66 @@
 /* landing for about page */
-.jumbotron {
-  background-image: url(../about-images/creative.png);
-  background-repeat: no-repeat;
+.about {
+  display: flex;
+}
+.col-6 img {
+  width: 100%;
+}
+/* our achievements */
+.container1 {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  background: hsl(0, 5%, 96%);
+}
+.counter-wrp {
+  background: rgb(216, 213, 213);
+}
+.counter-wrp ul {
+  list-style-type: none;
+  display: flex;
+}
+.counter-wrp li {
+  width: 33.33%;
+  height: 100%;
+  padding: 30px 0px;
+  text-align: center;
+  transition: 0.2s linear;
+}
+.counter-wrp li:nth-child(1) {
+  background: rgb(138, 139, 139);
+}
+
+.counter-wrp li:nth-child(2) {
+  background: rgb(169, 169, 170);
+}
+
+.counter-wrp li:nth-child(3) {
+  background: rgb(138, 139, 139);
+}
+.counter-wrp li:hover {
+  transform: scale(1.1);
+}
+.counter-wrp li p.number {
+  font-size: 30px;
+  padding: 0;
+  font-weight: bold;
+}
+.counter-wrp li p {
+  color: black;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.counter-wrp li span {
+  width: 60px;
+  height: 2px;
+  display: block;
+  margin: 0 auto;
+}
+.counter-wrp li i {
+  vertical-align: middle;
+  font-size: 50px;
+  color: rgb(59, 59, 92);
 }
 
 /* our team section */
@@ -11,16 +70,16 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.container2 {
+.container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
   background-color: #fff;
 }
-.header h1 {
+.header {
   font-weight: 400;
   text-align: center;
   text-decoration: underline coral;
