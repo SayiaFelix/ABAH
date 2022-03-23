@@ -1,0 +1,30 @@
+h1{
+    background-color: rgb(170, 163, 153);
+}
+body, html {
+
+     height: 100%;
+     width: 100%;
+     
+
+
+  }
+
+#main{
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: rgb(105, 99, 91);
+    height: 100%;
+    width: 100%;
+
+}
+
+#form{
+    background-color: rgb(139, 129, 115);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#submission{
+    width: 250px;
+}
