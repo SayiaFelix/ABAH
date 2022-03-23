@@ -1,6 +1,6 @@
 
 
-.col-md-4{
+/* .col-md-4{
     border-radius: 10%;
     padding: 20px;
     height: 100px;
@@ -46,7 +46,8 @@ h2{
 .card{
     padding: 50px;
     margin-bottom: 50px;
-    border-radius: 2%;   
+    border-radius: 2%; 
+    
 
 }
 
@@ -63,5 +64,19 @@ h5{
 .row{
     display: flex;
     flex-direction: row;
+    padding-bottom: 50px;
+    margin: 50px;
+    flex-wrap: wrap;
 }
 
+
+#gallery2{
+    margin-top: 5%;
+} */
+
+
+
+#gallery2{
+    margin-top: 5%;
+    
+}
