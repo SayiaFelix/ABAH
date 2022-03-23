@@ -4,12 +4,15 @@
   box-sizing: border-box;
 }
 
-body{
-  /* background-color: lightgrey; */
+
+.title {
+  background-color: rgb(170, 168, 168);
+  padding: 1%;
+  text-align: center;
 }
 
-h3 {
-  background-color: rgb(170, 168, 168);
+.infl{
+  /* background-color: rgb(170, 168, 168); */
   padding: 1%;
   text-align: center;
 }
@@ -30,7 +33,10 @@ h3 {
 }
 
 .section {
+  height: 95vh;
   display: block;
+  padding-bottom: 40px;
+  background-color: lightgrey
 }
 
 .sub-section1,
@@ -40,16 +46,14 @@ h3 {
   padding: 2%;
 }
 
-#influencers,
-.section {
-  display: none;
-}
+
 
 .profile {
   display: flex;
   justify-content: space-around;
-  padding: 5%;
+  padding: 3%;
   display: none;
+  padding-top: 30px;
 }
 
 .image{
@@ -58,7 +62,7 @@ h3 {
 
 .details {
   font-size: larger;
-  padding-top: 5%;
+  padding-top: 3%;
  
 
 }
@@ -78,8 +82,8 @@ h3 {
   padding-left: 15px;
 }
 
-.copyright {
-  background-color: gray;
+footer{
+  background-color: rgb(139, 137, 137);
   padding: 1%;
   text-align: center;
   color: white;
@@ -99,10 +103,5 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1000px){
-  .image{
-    height: 300px;
-  }
 
   
-}
