@@ -35,4 +35,167 @@
   }
   
   
-  
+ 
+/* landing for about page */
+.about {
+  display: flex;
+}
+.col-6 img {
+  width: 100%;
+}
+/* our achievements */
+.container1 {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  background: hsl(0, 5%, 96%);
+}
+.counter-wrp {
+  background: rgb(216, 213, 213);
+}
+.counter-wrp ul {
+  list-style-type: none;
+  display: flex;
+}
+.counter-wrp li {
+  width: 33.33%;
+  height: 100%;
+  padding: 30px 0px;
+  text-align: center;
+  transition: 0.2s linear;
+}
+.counter-wrp li:nth-child(1) {
+  background: rgb(138, 139, 139);
+}
+
+.counter-wrp li:nth-child(2) {
+  background: rgb(169, 169, 170);
+}
+
+.counter-wrp li:nth-child(3) {
+  background: rgb(138, 139, 139);
+}
+.counter-wrp li:hover {
+  transform: scale(1.1);
+}
+.counter-wrp li p.number {
+  font-size: 30px;
+  padding: 0;
+  font-weight: bold;
+}
+.counter-wrp li p {
+  color: black;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.counter-wrp li span {
+  width: 60px;
+  height: 2px;
+  display: block;
+  margin: 0 auto;
+}
+.counter-wrp li i {
+  vertical-align: middle;
+  font-size: 50px;
+  color: rgb(59, 59, 92);
+}
+
+/* our team section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+.header {
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline coral;
+  line-break: auto;
+}
+.header p {
+  font-size: large;
+  text-align: center;
+  line-height: 4%;
+}
+.card {
+  position: relative;
+  width: 240px;
+  height: 400px;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 8px;
+}
+.card .image {
+  position: absolute;
+  top: -90px;
+  width: 80vh;
+  height: 50vh;
+  transform: translateX(-50%);
+  clip-path: circle();
+}
+.card .image::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -16px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 0 20px rgba(19, 18, 18, 0.5);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+.image {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 240px;
+  height: 210px;
+}
+.imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.imgBox:hover {
+  transform: scale(1.2);
+}
+.content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  padding: 20px 30px;
+}
+.social-icon i {
+  size: 20px;
+  color: blue;
+  margin-top: 150%;
+  margin-right: 5px;
+}
+.social-icon {
+  margin-left: 10%;
+}
+.social-icon:hover {
+  padding: 2px 4px;
+  border-radius: 2px;
+  color: #fff;
+}
