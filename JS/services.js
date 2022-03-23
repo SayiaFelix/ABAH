@@ -58,3 +58,12 @@ $(document).ready(function () {
   };
 });
 
+$(document).ready(function () {
+  $("#signupFrm").hide();
+  $("#signupFrm_").hide();
+
+  $("#btn").click(function(){
+    $("#signupFrm").show();
+  })
+});
+
