@@ -45,3 +45,12 @@ h3{
     font-size: larger;
     padding-top: 5%;
 }
+
+.fb, .twitter, .ig, .yt{
+    display: flex;
+}
+
+.fb p, .twitter p, .ig p, .yt p{
+    padding-top: 15px;
+    padding-left: 15px;
+}
