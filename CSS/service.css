@@ -22,7 +22,7 @@ body {
     position: relative;
     background-attachment: fixed;
     width: 100%;
-    height: 110vh;
+    /* height: 110vh; */
 }
 
 
@@ -65,11 +65,11 @@ body {
     font-size: 20px;
 }
 
-.btn-lg a:hover {
-    border-bottom: 2px solid rgb(250, 246, 246);
+#btn_:hover {
+    border-bottom: 2px solid rgb(3, 3, 3);
     border-radius: 20px;
     text-decoration: none;
-    color: rgb(168, 165, 165);
+    color: rgb(17, 16, 16);
     font-weight: bold;
     font-size: 22px;
 }
@@ -77,184 +77,172 @@ body {
 
 /* FORM */
 
-.signup-form {
-    margin-top: -5%;
+
+/* 
+#btn_ {
+    background-color: rgb(233, 230, 230);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(17, 16, 16);
 }
 
 .signupFrm {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    width: 100%;
+    height: 600px;
 }
 
-.signupFrm2 {
+.signupFrm_ {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 350px;
 }
 
 .form {
     background-color: grey;
-    width: 100%;
-    border-radius: 4px;
-    padding: 20px 40px;
+    width: 60%;
+    border-radius: 8px;
+    padding: 1px 40px;
 }
 
-.input {
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    border: 2px solid #DADCE0;
-    border-radius: 6px;
-    font-size: 20px;
-    padding: 0 2px;
-    background: none;
-    /* z-index: 1; */
-}
-
-.label {
-    top: 15px;
-    left: 15px;
-    background-color: grey;
-    color: #1d1e1f;
-    font-size: 15px;
-    transition: 0.5s;
-    /* z-index: 0; */
-}
-
-#select {
-    position: relative;
-    height: 35px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: bold;
-    border: 2px solid #DADCE0;
-    border-radius: 6px;
-    padding: 0 5px;
-    outline: none;
-    /* background: none; */
-    /* z-index: 1; */
+.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .form p {
     font-size: 15px;
 }
 
-.title {
-    font-size: 25px;
-    margin-bottom: 20px;
-    /* margin-left: 10px; */
-    font-weight: bolder;
-    text-align: center;
+#select {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
 }
 
 #select:focus+.label {
-    color: rgb(178, 177, 233);
+    color: purple;
 }
 
 #select:focus {
-    border: 2px solid rgb(5, 20, 233);
+    border: 2px solid purple;
 }
 
 .inputContainer {
-    /* position: relative; */
-    /* height: 45px; */
-    width: 100%;
-    margin-bottom: 15px;
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 25px;
 }
 
-#loginBtn,
-#submitBtn {
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+
+ ::placeholder {
+    color: transparent;
+}
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: grey;
+    color: #33373f;
+    font-size: 18px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+#check {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.submitBtn {
+    display: block;
+    margin-right: auto;
+    padding: 15px 30px;
+    border: none;
+    color: black;
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    border: none;
+    margin-bottom: 20px;
 }
 
-#loginBtn:hover,
-#submitBtn:hover {
+.submitBtn_ {
+    display: block;
+    margin-right: auto;
+    padding: 15px 30px;
+    border: none;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#log {
+    color: white;
+    font-size: 16px;
+}
+
+.submitBtn:hover {
+    background-color: black;
     transform: translateY(-2px);
-    color: rgb(7, 7, 7);
-    font-size: 18px;
-    font-weight: bolder;
-    background-color: blue;
+    color: white;
+}
+
+.submitBtn_:hover {
+    background-color: black;
+    transform: translateY(-2px);
+    color: white;
 }
 
 .input:focus+.label {
     top: -7px;
     left: 3px;
     z-index: 10;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(46, 61, 194);
+    font-size: 20px;
+    font-weight: 600;
+    color: purple;
 }
 
 .input:focus {
-    border: 2px solid rgb(60, 11, 238);
+    border: 2px solid purple;
 }
 
 .input:not(:placeholder-shown)+.label {
     top: -7px;
     left: 3px;
     z-index: 10;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
-}
-
-
-/* when the user clicks on the password field */
-
-#message {
-    display: none;
-    background: #f1f1f1;
-    color: #000;
-    position: relative;
-    padding: 20px;
-    margin-top: 10px;
-}
-
-#message p {
-    padding: 10px 35px;
-    font-size: 18px;
-}
-
-.valid {
-    color: green;
-}
-
-.valid:before {
-    position: relative;
-    left: -35px;
-    content: "&#10004;";
-}
-
-.invalid {
-    color: red;
-}
-
-.invalid:before {
-    position: relative;
-    left: -35px;
-    content: "&#10006;";
-}
-
-#message-2 {
-    display: none;
-}
-
-
-/* hide forms */
-
-.signupFrm {
-    display: none;
-}
-
-.signupFrm2 {
-    display: none;
-}
+} */
 
 
 /*End of forms  */
