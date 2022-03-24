@@ -39,39 +39,160 @@ body {
 
 /* GALLERY PART BY Sam */
 
-#title {
+
+/*  start of gallery */
+
+#categories {
+    margin-top: -1%;
+    color: #1f2122;
+}
+
+ul {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    word-spacing: 10px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.title {
     padding: 1%;
     text-align: center;
+    font-weight: 700;
     font-size: 25px;
-    margin-top: -1%;
 }
 
-#gallerycontent {
-    font-size: 25px;
-    font-weight: bold;
-    /* font-family: 'Source Sans Pro', sans-serif; */
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.col-4 {
-    border-radius: 10px;
-}
-
-.col-4 img {
-    border-radius: 10px;
-}
-
-.influencer {
-    /* background-color: rgb(170, 168, 168); */
+.infl {
+    padding: 1%;
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 1%;
 }
 
-.social p {
-    font-size: 5px;
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+
+img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.lifestyle,
+.entertainment,
+.fashion {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.lifestyle p,
+.entertainment p,
+.fashion p {
+    font-size: larger;
+    padding: 10%;
+    text-align: center;
+}
+
+.oneee {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.section {
+    /* height: 95vh; */
+    display: block;
+    padding-bottom: 40px;
+    background-color: lightgrey
+}
+
+.sub-section1,
+.sub-section2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.profile {
+    margin-top: -15%;
+    display: flex;
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    height: 500px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: transparent;
+}
+
+.profile h3,
+.categories p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #050505;
+}
+
+.profile p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #646161;
+}
+
+.image {
+    float: right;
+}
+
+.details {
+    font-size: larger;
+}
+
+.fb,
+.twitter,
+.ig,
+.yt {
+    display: flex;
+}
+
+.fb p,
+.twitter p,
+.ig p,
+.yt p {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: rgb(139, 137, 137);
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .categories {
+        display: block;
+    }
+    .sub-section1,
+    .sub-section2 {
+        display: block;
+    }
+    image {
+        height: 300px;
+    }
+}
+
+#gallery2 {
+    margin-top: 5%;
+}
+
+.oneee p {
+    font-size: 20px;
     font-weight: 600;
+    text-align: center;
 }
 
 .client {
@@ -94,78 +215,24 @@ body {
     font-weight: bold;
 }
 
+.body {
+    border-radius: 10px;
+    background-color: #c0bab1;
+}
+
 .body p {
     text-align: center;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 700;
+    color: #1b1b1b;
 }
 
-
-/* .categories {
-    display: flex;
-    justify-content: space-around;
-    padding: 4%;
-} */
-
-.lifestyle p,
-.entertainment p,
-.fashion p {
-    font-size: larger;
-    padding: 10%;
-    text-align: center;
+.card-mb-2 {
+    border-radius: 10%;
 }
 
-.sub-section1,
-.sub-section2 {
-    display: flex;
-    justify-content: space-around;
-    padding: 2%;
-}
-
-.section {
-    height: 95vh;
-    display: block;
-    padding-bottom: 40px;
-    background-color: rgb(241, 228, 228)
-}
-
-.profile {
-    display: flex;
-    justify-content: space-around;
-    padding: 3%;
-    display: none;
-    padding-top: 30px;
-    box-shadow: 5px 5px 12px black;
+.col-4 img {
     border-radius: 10px;
-    /* height: 30vh; */
-    width: 96%;
-    border: none;
-    margin-top: 1%;
-    margin-left: 2%;
-}
-
-.image {
-    float: right;
-}
-
-.details {
-    font-size: larger;
-    padding-top: 3%;
-}
-
-.fb,
-.twitter,
-.ig,
-.yt {
-    display: flex;
-}
-
-.fb p,
-.twitter p,
-.ig p,
-.yt p {
-    padding-top: 15px;
-    padding-left: 15px;
 }
 
 #contact-Us {
@@ -179,9 +246,8 @@ body {
 }
 
 .btn {
-    background-color: transparent;
     border: none;
-    /* padding-left: 30%; */
+    border-radius: 10px;
 }
 
 .btn a {
@@ -209,11 +275,10 @@ body {
     font-weight: 600;
 }
 
-
-/* #btn2 {
+#btn2 {
     margin-top: -3%;
     margin-left: 30%;
-} */
+}
 
 .communication-container a {
     width: 30px;
@@ -294,8 +359,6 @@ body {
     padding: 5px;
     border-radius: 10px;
     border: 2px solid #cbcbcb;
-    /* background-color: #191919; */
-    /* margin-top: 5%; */
 }
 
 #Location iframe {

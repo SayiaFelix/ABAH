@@ -22,7 +22,7 @@ body {
     position: relative;
     background-attachment: fixed;
     width: 100%;
-    /* height: 110vh; */
+    height: 105vh;
 }
 
 
@@ -53,6 +53,7 @@ body {
     background-color: black;
     font-size: large;
     color: whitesmoke;
+    border: none;
 }
 
 #service {
@@ -61,227 +62,21 @@ body {
 
 .btn-lg {
     background-color: transparent;
-    border: 2px solid rgb(245, 240, 240);
+    border: 1px solid rgb(245, 240, 240);
     border-radius: 10px;
 }
 
-.btn-lg a {
-    background-color: transparent;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-}
-
 #btn_:hover {
-    border-bottom: 2px solid rgb(3, 3, 3);
+    border-bottom: 5px solid rgb(3, 3, 3);
     border-radius: 20px;
     text-decoration: none;
-    color: rgb(17, 16, 16);
+    color: rgb(238, 231, 231);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 
-/* FORM */
-
-
-/* 
-.signupFrm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-}
-
-.signupFrm_ {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 350px;
-}
-
-.form {
-    width: 60%;
-    border-radius: 8px;
-    padding: 1px 40px;
-}
-
-.title {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-
-.title {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-
-.form p {
-    font-size: 15px;
-}
-
-#select {
-    position: relative;
-    height: 45px;
-    width: 90%;
-    margin-bottom: 25px;
-    font-size: 16px;
-    font-weight: bold;
-    border: 1px solid #DADCE0;
-    border-radius: 7px;
-    padding: 0 20px;
-    outline: none;
-    background: none;
-    z-index: 1;
-}
-
-#select:focus+.label {
-    color: purple;
-}
-
-#select:focus {
-    border: 2px solid purple;
-}
-
-.inputContainer {
-    position: relative;
-    height: 45px;
-    width: 90%;
-    margin-bottom: 25px;
-}
-
-.input {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    border: 1px solid #DADCE0;
-    border-radius: 7px;
-    font-size: 16px;
-    padding: 0 20px;
-    outline: none;
-    background: none;
-    z-index: 1;
-}
-
-#check {
-    font-size: 16px;
-    font-weight: bolder;
-}
-
-.submitBtn {
-    display: block;
-    margin-right: auto;
-    padding: 15px 30px;
-    border: none;
-    color: black;
-}
-
-#log {
-    color: white;
-    font-size: 16px;
-}
-
-.submitBtn:hover {
-    background-color: black;
-    transform: translateY(-2px);
-    color: white;
-}
-
- ::placeholder {
-    color: transparent;
-}
-
-.label {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    padding: 0 4px;
-    background-color: grey;
-    color: #33373f;
-    font-size: 18px;
-    transition: 0.5s;
-    z-index: 0;
-}
-
-#check {
-    font-size: 16px;
-    font-weight: bolder;
-}
-
-.submitBtn {
-    display: block;
-    margin-right: auto;
-    padding: 15px 30px;
-    border: none;
-    color: black;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.submitBtn_ {
-    display: block;
-    margin-right: auto;
-    padding: 15px 30px;
-    border: none;
-    color: black;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-#log {
-    color: white;
-    font-size: 16px;
-}
-
-.submitBtn:hover {
-    background-color: black;
-    transform: translateY(-2px);
-    color: white;
-}
-
-.submitBtn_:hover {
-    background-color: black;
-    transform: translateY(-2px);
-    color: white;
-}
-
-.input:focus+.label {
-    top: -7px;
-    left: 3px;
-    z-index: 10;
-    font-size: 20px;
-    font-weight: 600;
-    color: purple;
-}
-
-.input:focus {
-    border: 2px solid purple;
-    font-weight: 500;
-    color: rgb(46, 61, 194);
-}
-
-.input:focus {
-    border: 2px solid rgb(60, 11, 238);
-}
-
-.input:not(:placeholder-shown)+.label {
-    top: -7px;
-    left: 3px;
-    z-index: 10;
-    font-size: 14px;
-    font-weight: 600;
-}
- */
-
-
-/*End of forms  */
+/*Starts   */
 
 #btn_ {
     background-color: black;
@@ -303,17 +98,30 @@ body {
     height: 350px;
 }
 
+#sn {
+    background: url();
+    background: url("../images/background/Ammds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+
 .form {
-    background-color: grey;
-    width: 60%;
+    width: 50%;
     border-radius: 8px;
     padding: 1px 40px;
+    background-color: #a6a7aa;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px;
     margin-left: 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
 
 .form p {
