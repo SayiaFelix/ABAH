@@ -27,6 +27,19 @@ header {
     width: 100%;
 }
 
+.container {
+    background-color: transparent;
+}
+
+.team-section {
+    background-image: url("../images/background/black-influencer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+
 
 /* landingpage styling */
 
@@ -67,21 +80,23 @@ header {
     border-radius: 10px;
 }
 
-.btn-lg a {
+.btn a {
     background-color: transparent;
     color: rgb(204, 201, 201);
     font-weight: bold;
     font-size: 20px;
+    border-radius: 10px;
 }
 
-.btn-lg a:hover {
-    border-bottom: 2px solid rgb(206, 203, 203);
+.btn a:hover {
+    border-bottom: 2px solid rgb(228, 226, 226);
     border-radius: 20px;
     text-decoration: none;
     background-color: none;
-    color: black;
+    color: rgb(5, 4, 4);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 23px;
+    background-color: transparent;
 }
 
 
@@ -94,17 +109,18 @@ header {
 }
 
 #aboutus {
-    margin-top: -1%;
+    margin-top: -4%;
+}
+
+.about {
+    display: flex;
     background: url("../images/background/Abg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
     width: 100%;
-}
-
-.about {
-    display: flex;
+    border-radius: 10px;
 }
 
 .col-6 img {
@@ -235,12 +251,13 @@ header {
 .header h1 {
     font-size: 30px;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 251, 251);
 }
 
 .header p {
     font-size: 15px;
     font-weight: 500;
+    color: #cfcbcb;
 }
 
 .card {

@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: url("../images/bg.gif");
+    background: url("../images/background/bg.gif");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

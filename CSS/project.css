@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: url("../images/background/bg.gif");
+    background: url("../images/background/Abg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -16,7 +16,7 @@ body {
 }
 
 #title {
-    color: black;
+    color: white;
     font-size: 35px;
     font-weight: bold;
 }
@@ -25,11 +25,12 @@ body {
     width: 96%;
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 12px black;
+    box-shadow: 5px 5px 12px rgb(3, 3, 3);
     border-top: 2px solid rgb(202, 201, 201);
 }
 
 .projects h4 {
+    color: white;
     font-size: 25px;
     font-weight: 700;
     font-family: 'Source Sans Pro', sans-serif
