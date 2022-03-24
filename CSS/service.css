@@ -45,7 +45,15 @@ body {
     border-radius: 10px;
 }
 
+body {
+  overflow-x: none;
+}
 
+#btn_ {
+    background-color: black;
+    font-size: large;
+    color: whitesmoke;
+=======
 /* Service part section1 */
 
 #service {
@@ -77,10 +85,6 @@ body {
 
 /* FORM */
 
-.signup-form {
-    margin-top: -5%;
-}
-
 .signupFrm {
     display: flex;
     justify-content: center;
@@ -93,15 +97,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
-}
-
-.form {
+    height: 350px;
+  }
+  
+  .form {
     background-color: grey;
-    width: 100%;
-    border-radius: 4px;
-    padding: 20px 40px;
-}
+    width: 60%;
+    border-radius: 8px;
+    padding: 1px 40px;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
 
 .input {
     top: 0px;
@@ -165,14 +175,27 @@ body {
     width: 100%;
     margin-bottom: 15px;
 }
-
-#loginBtn,
-#submitBtn {
-    border-radius: 6px;
-    cursor: pointer;
+  #check {
     font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .submitBtn {
+    display: block;
+    margin-right: auto;
+    padding: 15px 30px;
     border: none;
-}
+    color: black;
+  
+  #log {
+    color: white;
+    font-size: 16px;
+  }
+  .submitBtn:hover {
+    background-color: black;
+    transform: translateY(-2px);
+    color: white;
+  }
 
 #loginBtn:hover,
 #submitBtn:hover {
@@ -201,64 +224,8 @@ body {
     left: 3px;
     z-index: 10;
     font-size: 15px;
-    font-weight: 600;
-}
-
-
-/* when the user clicks on the password field */
-
-#message {
-    display: none;
-    background: #f1f1f1;
-    color: #000;
-    position: relative;
-    padding: 20px;
-    margin-top: 10px;
-}
-
-#message p {
-    padding: 10px 35px;
-    font-size: 18px;
-}
-
-.valid {
-    color: green;
-}
-
-.valid:before {
-    position: relative;
-    left: -35px;
-    content: "&#10004;";
-}
-
-.invalid {
-    color: red;
-}
-
-.invalid:before {
-    position: relative;
-    left: -35px;
-    content: "&#10006;";
-}
-
-#message-2 {
-    display: none;
-}
-
-
-/* hide forms */
-
-.signupFrm {
-    display: none;
-}
-
-.signupFrm2 {
-    display: none;
-}
-
-
-/*End of forms  */
-
+    font-weight: 600
+  }
 
 /* Service part */
 
