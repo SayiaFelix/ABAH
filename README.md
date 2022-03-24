@@ -3,16 +3,19 @@
 #### By **{Sayia Felix Lucas ,Faith Okong'o ,Samuel Murigi, Moses Bukusi, Vonetta Orinda, Maureen Kagochi, Amran Ahmed}**
 ## Description
 {ABAH is a web application that connects corporate brands to niche based influencers/brand ambassadors who can market their products or services to their targeted market.
+![Screenshot from 2022-03-24 23-56-51](https://user-images.githubusercontent.com/98148605/160009188-ff21ad60-a68f-48c9-8d4d-e91b0ca10d85.png)
+![Screenshot from 2022-03-24 23-57-08](https://user-images.githubusercontent.com/98148605/160009232-51b67af9-92b2-4515-a725-8ab438e7cb50.png)
 
-}
 ### User Stories
 1.User is able to Sign up.
+![Screenshot from 2022-03-24 23-57-43](https://user-images.githubusercontent.com/98148605/160009267-1ac661e8-18e2-4752-a779-b50566af0c71.png)
 2.User is able to login In.
+![Screenshot from 2022-03-24 23-57-55](https://user-images.githubusercontent.com/98148605/160009323-c5da181c-5ad7-41f7-8a59-5015b624ddf7.png)
 3.User is able to see our recent project.
 4.User is able to browse through influencers Profile.
 5.User is able to send us a message.
 6.User is able to locate us on our embedded map.
-{}
+
 
 ## Setup/Installation Requirements
 
