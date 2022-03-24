@@ -7,12 +7,22 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: url("../images/bg.gif");
+    background: url("../images/background/bg.gif");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
     width: 100%;
+}
+
+.service-landing {
+    background: url("../images/background/Abg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    height: 110vh;
 }
 
 
@@ -44,7 +54,7 @@ body {
 
 .btn-lg {
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid rgb(245, 240, 240);
     border-radius: 10px;
 }
 
@@ -256,11 +266,8 @@ body {
 /* Service section */
 
 .Services {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    /* font-family: "Poppins", sans-serif; */
     width: 100%;
-    background: url("../images/bgg2.jpg");
+    background: url("../images/background/bg-counters.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -285,9 +292,10 @@ body {
 }
 
 .card1:hover {
-    border-bottom: 2px solid rgb(186, 186, 189);
-    border-top: 2px solid rgb(31, 31, 32);
+    border-bottom: 3px solid rgb(186, 186, 189);
+    border: 3px solid rgb(31, 31, 32);
     transition: all ease 0.2s;
+    border-radius: 5px;
 }
 
 .service-pricing {
@@ -339,7 +347,7 @@ body {
 }
 
 .Testimonial-section {
-    background: url("../images/bgg2.jpg");
+    background: url("../images/background/bgg2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

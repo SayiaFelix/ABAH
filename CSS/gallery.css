@@ -76,6 +76,16 @@ body {
 
 .client {
     margin-top: 5%;
+    background: url("../images/background/bgg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.client h1 {
+    color: #050505;
 }
 
 .body h2 {
@@ -159,29 +169,38 @@ body {
 }
 
 #contact-Us {
-    background-color: #6C757D;
+    background-color: #2f3133;
     margin-top: 2%;
-    height: 50vh;
+    height: 45vh;
 }
 
 #logoimage {
     border-radius: 10%;
-    /* margin-right: -10%; */
 }
 
 .btn {
     background-color: transparent;
     border: none;
+    /* padding-left: 30%; */
 }
 
 .btn a {
     font-weight: 500;
-    color: #CDAA7C;
-    font-size: 20px;
+    color: #c0bab1;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn a:hover {
+    font-weight: 900;
+    color: #f0efee;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 #offer {
-    color: #CDAA7C;
+    color: #cecdcb;
     font-weight: 900;
 }
 
@@ -190,10 +209,11 @@ body {
     font-weight: 600;
 }
 
-#btn2 {
+
+/* #btn2 {
     margin-top: -3%;
     margin-left: 30%;
-}
+} */
 
 .communication-container a {
     width: 30px;
@@ -201,7 +221,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(226, 172, 72);
+    background-color: rgb(167, 166, 164);
     margin: 20px 10px;
     border-radius: 50%;
 }
@@ -264,13 +284,6 @@ body {
     font-size: 23px;
 }
 
-#mc_embed_signup {
-    clear: left;
-    width: 99%;
-    border-radius: 5px;
-    margin-top: 5%;
-}
-
 .Map {
     background-color: #fff;
 }
@@ -279,16 +292,16 @@ body {
     width: 100%;
     height: 60vh;
     padding: 5px;
-    border-radius: 2%;
+    border-radius: 10px;
     border: 2px solid #cbcbcb;
-    background-color: #191919;
-    margin-top: 5%;
+    /* background-color: #191919; */
+    /* margin-top: 5%; */
 }
 
 #Location iframe {
     width: 100%;
-    height: 58vh;
-    border-radius: 2%;
+    height: 60vh;
+    border-radius: 10px;
 }
 
 
@@ -299,11 +312,12 @@ body {
     font-size: 15px;
     position: absolute;
     text-align: center;
-    background-color: #6C757D;
+    background-color: #1f2122;
 }
 
 #Copyright {
-    color: #ffffff;
+    color: #979090;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {

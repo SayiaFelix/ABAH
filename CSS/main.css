@@ -8,7 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-family: "Poppins", sans-serif;
-    background: url("../images/bg.gif");
+    background: url("../images/background/bg.gif");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-image: url("../images/Influencers.jpg");
+    background-image: url("../images/background/Influencers.jpg");
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,6 +90,12 @@ header {
 
 #aboutus {
     margin-top: -1%;
+    background: url("../images/background/Abg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
 }
 
 .about {
