@@ -28,3 +28,9 @@ function awardsReceived() {
         clearInterval(coffee);
     }
 }
+$(".pic1").click(function() {
+    $(this).hide();
+    $(".content1").toggle();
+
+
+});
