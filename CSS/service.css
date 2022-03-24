@@ -48,7 +48,7 @@ body {
 .serv {
   height: auto;
   height: 600px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   color: black;
   padding-top: 30px;
   font-weight: bolder;
@@ -65,7 +65,7 @@ body {
     font-size: 20px;
 }
 
-#btn {
+#btn_ {
     background-color: black;
     font-size: large;
     color: whitesmoke;
@@ -82,16 +82,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 350px;
   }
   
   .form {
     background-color: grey;
     width: 60%;
     border-radius: 8px;
-    padding: 20px 40px;
+    padding: 1px 40px;
   }
-  
+
   .title {
     font-size: 30px;
     margin-bottom: 20px;
@@ -164,6 +164,11 @@ body {
     z-index: 0;
   }
 
+  #check {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
   .submitBtn {
     display: block;
     margin-right: auto;
@@ -187,6 +192,10 @@ body {
     font-size: 16px;
   }
   
+  #log {
+    color: white;
+    font-size: 16px;
+  }
   .submitBtn:hover {
     background-color: black;
     transform: translateY(-2px);
@@ -219,52 +228,3 @@ body {
     font-size: 14px;
     font-weight: 600;
   }
-
-
-/* when the user clicks on the password field */
-#message {
-  display:none;
-  background: #f1f1f1;
-  color: #000;
-  position: relative;
-  padding: 20px;
-  margin-top: 10px;
-}
-
-#message p {
-  padding: 10px 35px;
-  font-size: 18px;
-}
-
-
-.valid {
-  color: green;
-}
-
-.valid:before {
-  position: relative;
-  left: -35px;
-  content: "&#10004;";
-}
-
-.invalid {
-  color: red;
-}
-
-.invalid:before {
-  position: relative;
-  left: -35px;
-  content: "&#10006;";
-}
-
-#message-2 {
-  display: none;
-}
-
-.signupFrm {
-  display: none;
-}
-
-.signupFrm_ {
-  display: none;
-}
