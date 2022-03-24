@@ -13,7 +13,8 @@
 
     <!-- Style css -->
     <link rel="stylesheet" href="CSS/service.css">
-
+    <!-- <link rel="stylesheet" href="./CSS/main.css"> -->
+    <!-- js Script -->
 
     <!-- Font-Awesome -->
     <script src="https://kit.fontawesome.com/0aff1cb243.js" crossorigin="anonymous"></script>
@@ -22,7 +23,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Inspiration&family=M+PLUS+1p:wght@300&family=Open+Sans&family=PT+Sans:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
-
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     
@@ -31,41 +31,54 @@
 
     <!-- Script Js -->
     <script src=" ./JS/main.js "></script>
-
+    <title>ABAH</title>
+    <link rel="icon" href="./images/logo.jpeg" type="image/x-icon">
 
     <title>Services</title>
 </head>
 
 
 <body>
-   <header>
-        <nav>
-          <div class="logo">
-            <p>ABAH</p>
-          </div>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="">Contact us</a></li>
-          </ul>
-        </nav>
-      </header>
-    <!-- Landing Page -->
-    <div class="">
-        <div class="row">
-            <div class="col-12">
-                <div class="serv">
-                    <div class="col-4">
-                        <h1><b>Afri Brand Ambassadors Hub</b></h1><br>
-                        <p>An ecosystem that connects influencers to brands</p>
-                        <p>We equip our influencers with enough skills and tools to bring the best out of them while guaranteeing them high returns.</p> <br>
-                        <p>Work hard, Smile all the way to the bank!</p><br>
-                        <button type="button" id="btn_">Join Now</button>
-                    </div>
-                    <div class="col-8">
-                        <img src="images/services/influencer-2.png" height="550px" width="100%" alt="">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="./images/logo.jpeg" width="120px" height="50px" alt="logo">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fs-4 fw-bold ms-auto">
+                        <a class=" nav-link active" aria-current="page" href="./index.html">HOME</a>
+                        <a class="nav-link" href="./index.html">ABOUT US</a>
+                        <a class="nav-link" href="./service.html">SERVICES</a>
+                        <a class="nav-link" href="./gallery.html">GALLERY</a>
                     </div>
                 </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+
+    <!-- Landing Page -->
+
+    <div class="service-landing">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 text-center text-light" id="service">
+                    <h2><b>Afri Brand Ambassadors Hub</b></h2><br>
+                    <p class="fs-3">An ecosystem that connects influencers to brandsWe equip our influencers with enough skills and tools to bring the best out of them while guaranteeing them high returns.</p>
+                    <br>
+                    <p class="fw-bolder fs-2">Work hard, Smile all the way to the bank!</p><br>
+                    <button class="btn btn-secondary btn-lg"><a href="">Join Now</a></button>
+                </div>
+                <div class="col-6">
+                    <img src="./images/services/starter.jpeg" height="80%" width="96%" alt="">
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -134,10 +147,11 @@
     </div>
    
     <!-- services section -->
+
     <div class="Services mt-2">
         <div class="container">
             <h4 class="text-center fw-bold text-uppercase fs-2">Why You should choose us?</h4>
-            <h5 class="text-center fw-bolder fs-2 mb-2 text-secondary">The Reason why ABAH is best.</h5>
+            <h5 class="text-center fw-bolder fs-2 mb-2">The Reason why ABAH is best.</h5>
             <hr>
             <br>
             <div class="row">
@@ -160,8 +174,7 @@
                             <div class="services-content">
                                 <i class="fa-solid fa-square-poll-vertical"></i>
                                 <h5 class="card-title fw-bold fs-2">Influencer Training</h5>
-                                <p class="card-text fs-4">ABAH offers support, training and platform for young and aspiring influencer to undergo trainship for three month and after completing they become Brand influencers in our Afri Brand Ambassodors and become part of Starter
-                                    pack.
+                                <p class="card-text fs-4">ABAH offers support, training and platform for young and aspiring influencer to undergo trainship for three monthandthn become our start pack.
                                 </p>
                             </div>
                         </div>
@@ -175,7 +188,7 @@
                             <div class="services-content">
                                 <i class="fa-solid fa-square-poll-vertical"></i>
                                 <h5 class="card-title fw-bold fs-2">Product Advertising</h5>
-                                <p class="card-text fs-4"> ABAH work with Cooperates in inducing consumers to purchase their product through communication channels such as television, radio, print media, websites, social media, and billboards.
+                                <p class="card-text fs-4"> ABAH work with Cooperates in inducing consumers to purchase their product through communication channels such as television ,radio and social media.
                                 </p>
                             </div>
                         </div>
@@ -187,7 +200,7 @@
                             <div class="services-content">
                                 <i class="fa-solid fa-spa"></i>
                                 <h5 class="card-title fw-bold fs-2">Social Media Management</h5>
-                                <p class="card-text fs-4">ABAH trains influencer on how to analyzing their social media audiences and developing strategy on creating and distributing content for their social media profiles.</p>
+                                <p class="card-text fs-4">ABAH trains influencer on how to analyzing their social media audiences and developing strategy on creating their social media pages.</p>
                             </div>
                         </div>
                     </div>
@@ -195,7 +208,6 @@
             </div>
         </div>
     </div>
-   
 
     <!-- services pricing -->
     <div class="service-pricing mt-5">
@@ -246,7 +258,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- Testimonoial section -->
     <div class="Testimonial-section">
@@ -311,6 +322,20 @@
 
             </div>
         </div>
+
+        <!--Social Media -->
+        <div class="communication">
+            <a href="#" target="-blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="-blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" target="-blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="-blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <br>
+        <!-- Copyright -->
+        <div class="Copyright">
+            <p class="m-2 medium">Copyright &copy; ABAH 2022 <br>with Love by,<span id="Copyright">ABAH MANAGEMENT</span> </p>
+        </div>
+
 </body>
 
 </html>
