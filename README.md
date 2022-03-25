@@ -12,7 +12,6 @@
 4.User is able to browse through influencers Profile.
 5.User is able to send us a message.
 6.User is able to locate us on our embedded map.
-{}
 
 ## Setup/Installation Requirements
 
