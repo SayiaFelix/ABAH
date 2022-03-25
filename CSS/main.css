@@ -58,7 +58,7 @@ header {
 
 .navbar-nav {
     text-align: center;
-    padding-left: 20%;
+    padding-left: 25%;
     margin-right: 10%;
 }
 
@@ -84,7 +84,7 @@ header {
     background-color: transparent;
     color: rgb(204, 201, 201);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 10px;
 }
 
