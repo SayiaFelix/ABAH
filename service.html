@@ -13,8 +13,9 @@
 
     <!-- Style css -->
     <link rel="stylesheet" href="CSS/service.css">
-    <!-- <link rel="stylesheet" href="./CSS/main.css"> -->
-    <!-- js Script -->
+
+    
+
 
     <!-- Font-Awesome -->
     <script src="https://kit.fontawesome.com/0aff1cb243.js" crossorigin="anonymous"></script>
@@ -39,6 +40,7 @@
 
 <body>
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <div class="logo">
@@ -87,6 +89,39 @@
 
     <!-- form -->
 
+
+        <nav>
+          <div class="logo">
+            <p>ABAH</p>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+    <!-- Landing Page -->
+    <div class="">
+        <div class="row">
+            <div class="col-12">
+                <div class="serv">
+                    <div class="col-4">
+                        <h1><b>Afri Brand Ambassadors Hub</b></h1><br>
+                        <p>An ecosystem that connects influencers to brands</p>
+                        <p>We equip our influencers with enough skills and tools to bring the best out of them while guaranteeing them high returns.</p> <br>
+                        <p>Work hard, Smile all the way to the bank!</p><br>
+                        <button id="btn"><a href="">Join Now</a></button>
+                    </div>
+                    <div class="col-8">
+                        <img src="images/services/influencer-2.png" height="550px" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
     <!-- Signup Form -->
     <div class="signupFrm" id="sn">
         <form action="" class="form">
@@ -102,15 +137,24 @@
                 <label for="email" class="label">Email</label>
             </div>
 
+
             <div class="inputContainer">
                 <input type="text" class="input" placeholder="a" required id="name">
                 <label for="" class="label">Username</label>
             </div>
 
+
+        
+            <div class="inputContainer">
+                <input type="text" class="input" placeholder="a" required>
+                <label for="" class="label">Username</label>
+            </div>
+        
             <div class="inputContainer">
                 <input type="password" class="input" placeholder="a" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                 <label for="psw" class="label">Password</label>
             </div>
+
 
             <div class="inputContainer">
                 <input type="password" class="input" placeholder="a" id="psw1" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
@@ -323,6 +367,60 @@
                     </div>
                 </div>
 
+        
+            <div class="inputContainer">
+                <input type="password" class="input" placeholder="a" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <label for="psw" class="label">Confirm Password</label>
+            </div>
+        
+            <input type="submit" class="submitBtn" value="Sign up" id="signup">
+            <p><b>Already Registered,Login here:</b></p><br>
+            <input type="submit" class="submitBtn_" value="Login">
+        </form>
+    </div>
+
+    <!-- Password -->
+    <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+    </div>
+
+<!-- Login Form -->
+    <div class="signupFrm_">
+        <form action="" class="form">
+            <h6 class="title">Login</h6>
+            <div class="inputContainer">
+                <input type="email" class="input" id="email" placeholder="a" required>
+                <label for="email" class="label">Email</label>
+            </div>
+
+            <div class="inputContainer">
+                <input type="password" class="input" placeholder="a" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <label for="psw" class="label">Password</label>
+            </div>
+            <input type="submit" class="submitBtn" value="Login">
+        </form>
+    </div>
+
+    <!-- Password -->
+    <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+    </div>
+
+    <!-- Message on Signup -->
+    <div id="message-2">
+        <h4>Thank you for signing up. A member of our team will reach out to you"</h4>
+    </div>
+
+
+
             </div>
         </div>
 
@@ -340,5 +438,8 @@
         </div>
 
 </body>
+
+    <!-- js Script -->
+    <script src="JS/services.js"></script>
 
 </html>
