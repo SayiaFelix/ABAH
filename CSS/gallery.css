@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inspiration&family=M+PLUS+1p:wght@300&family=Open+Sans&family=PT+Sans:ital@1&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("../images/background/bg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.navbar-nav {
+    text-align: center;
+    float: right;
+}
+
+.logo img {
+    border-radius: 10px;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 2px solid rgb(241, 237, 237);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#gallery2 {
+    margin-top: 5%;
+}
+
+
+/* GALLERY PART BY Sam */
+
+
+/*  start of gallery */
+
+#categories {
+    margin-top: -1%;
+    color: #1f2122;
+}
+
+ul {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    word-spacing: 10px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.title {
+    padding: 1%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.infl {
+    padding: 1%;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+
+img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.lifestyle,
+.entertainment,
+.fashion {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.lifestyle p,
+.entertainment p,
+.fashion p {
+    font-size: larger;
+    padding: 10%;
+    text-align: center;
+}
+
+.oneee {
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.section {
+    /* height: 95vh; */
+    display: block;
+    padding-bottom: 40px;
+    background-color: lightgrey
+}
+
+.sub-section1,
+.sub-section2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.profile {
+    margin-top: -15%;
+    display: flex;
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    height: 500px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: transparent;
+}
+
+.profile h3,
+.categories p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #050505;
+}
+
+.profile p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #646161;
+}
+
+.image {
+    float: right;
+}
+
+.details {
+    font-size: larger;
+}
+
+.fb,
+.twitter,
+.ig,
+.yt {
+    display: flex;
+}
+
+.fb p,
+.twitter p,
+.ig p,
+.yt p {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: rgb(139, 137, 137);
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .categories {
+        display: block;
+    }
+    .sub-section1,
+    .sub-section2 {
+        display: block;
+    }
+    image {
+        height: 300px;
+    }
+}
+
+#gallery2 {
+    margin-top: 5%;
+}
+
+.oneee p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.client {
+    margin-top: 5%;
+    background: url("../images/background/bgg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.client h1 {
+    color: #ffffff;
+}
+
+.body h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.body {
+    border-radius: 10px;
+    background-color: #c0bab1;
+}
+
+.body p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1b1b1b;
+}
+
+.card-mb-2 {
+    border-radius: 10%;
+}
+
+.col-4 img {
+    border-radius: 10px;
+}
+
+#contact-Us {
+    background-color: #2f3133;
+    margin-top: 2%;
+    height: 49vh;
+}
+
+#logoimage {
+    border-radius: 10%;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+}
+
+.btn a {
+    font-weight: 500;
+    color: #c0bab1;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn a:hover {
+    font-weight: 900;
+    color: #f0efee;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#offer {
+    color: #cecdcb;
+    font-weight: 900;
+}
+
+#closed {
+    color: red;
+    font-weight: 600;
+}
+
+#btn2 {
+    margin-top: -3%;
+    margin-left: 30%;
+}
+
+.communication-container a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 166, 164);
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.communication-container {
+    display: flex;
+}
+
+.communication-container i {
+    color: #0a0a0a;
+    font-size: 15px;
+}
+
+.communication-container a:hover {
+    background-color: #fff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.communication-container a:hover i {
+    color: #050505;
+    transition: all ease 0.5s;
+}
+
+.communication a:hover {
+    background-color: #ADA69F;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.communication a:hover i {
+    color: #ffffff;
+    transition: all ease 0.5s;
+}
+
+.communication {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.communication a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    border-radius: 10px;
+    background-color: wheat;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.communication i {
+    color: #2b2b2b;
+    font-size: 23px;
+}
+
+.Map {
+    background-color: #fff;
+}
+
+#Location {
+    width: 100%;
+    height: 60vh;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #cbcbcb;
+}
+
+#Location iframe {
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+
+/* copyright */
+
+.Copyright {
+    width: 100%;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    background-color: #1f2122;
+}
+
+#Copyright {
+    color: #979090;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .categories {
+        display: block;
+    }
+    .sub-section1,
+    .sub-section2 {
+        display: block;
+    }
+    image {
+        height: 300px;
+    }
+}
+
+
+/* END OF GALLERY */

@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inspiration&family=M+PLUS+1p:wght@300&family=Open+Sans&family=PT+Sans:ital@1&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: "Poppins", sans-serif;
+    background: url("../images/background/bg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    opacity: .9;
+}
+
+header {
+    background-image: url("../images/background/black-influencer.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.container {
+    background-color: transparent;
+}
+
+.team-section {
+    background-image: url("../images/background/black-influencer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+
+/* landingpage styling */
+
+#topnav {
+    margin-top: 13%;
+}
+
+#topnav h1 {
+    font-size: 40px;
+}
+
+#topnav p {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-nav {
+    text-align: center;
+    padding-left: 25%;
+    margin-right: 10%;
+}
+
+.btn-lg {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 2px solid rgb(252, 249, 249);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.logo img {
+    border-radius: 10px;
+}
+
+.btn a {
+    background-color: transparent;
+    color: rgb(204, 201, 201);
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.btn a:hover {
+    border-bottom: 2px solid rgb(228, 226, 226);
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: none;
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+    font-size: 23px;
+    background-color: transparent;
+}
+
+
+/* landing for about page */
+
+.jumbotron h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+#aboutus {
+    margin-top: -4%;
+}
+
+.about {
+    display: flex;
+    background: url("../images/background/Abg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.col-6 img {
+    width: 90%;
+}
+
+
+/*...section 2...vision...*/
+
+.toggle img {
+    height: 100px;
+}
+
+.fuel p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.value {
+    background: url("../images/background/Abg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    opacity: .9;
+}
+
+.toggle {
+    padding-left: 15%;
+}
+
+.content {
+    display: none;
+    transition: all 0.2s ease;
+}
+
+.drive {
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+
+/* our achievements */
+
+.container1 {
+    font-family: "Poppins", sans-serif;
+    padding: 30px;
+    background: hsl(0, 5%, 96%);
+    margin-top: -5%;
+}
+
+.counter-wrp ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.counter-wrp li {
+    width: 33.33%;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    transition: 0.2s linear;
+    border-radius: 10px;
+}
+
+.counter-wrp li:nth-child(1) {
+    background: #cfcbcb;
+}
+
+.counter-wrp li:nth-child(2) {
+    background: rgb(169, 169, 170);
+}
+
+.counter-wrp li:nth-child(3) {
+    background: #cfcbcb;
+}
+
+.counter-wrp li:hover {
+    transform: scale(1.1);
+}
+
+.counter-wrp li p.number {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.counter-wrp li p {
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.counter-wrp li span {
+    width: 60px;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+}
+
+.counter-wrp li i {
+    vertical-align: middle;
+    font-size: 55px;
+    color: rgb(59, 59, 92);
+}
+
+
+/* our team section */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header {
+    line-break: auto;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 251, 251);
+}
+
+.header p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #cfcbcb;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 380px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px rgb(71, 70, 70);
+}
+
+.card .image {
+    position: absolute;
+    top: -90px;
+    width: 120vh;
+    height: 60vh;
+    transform: translateX(-50%);
+    clip-path: ellipse();
+    border-radius: 10px;
+}
+
+.card .image::before {
+    content: "";
+    position: absolute;
+    box-shadow: 0 0 0 20px rgba(19, 18, 18, 0.5);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.image {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 240px;
+    height: 210px;
+}
+
+.imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.imgBox:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    padding: 20px 30px;
+}
+
+.social-icon i {
+    font-size: 20px;
+    color: #5065c2;
+    margin-top: 150%;
+    margin-right: 5px;
+}
+
+.social-icon {
+    margin-left: 10%;
+}
+
+.social-icon:hover {
+    padding: 2px 4px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.content h3 {
+    font-weight: bold;
+}
+
+.content p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+/* COPYRIGHT*/
+
+.Copyright {
+    width: 100%;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    background-color: #b9bcbe;
+    border-radius: 4px;
+}
+
+#Copyright {
+    color: #0a0707;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-secondary a:hover {
+    text-decoration: none;
+    transition: all ease 0.5s;
+    color: white;
+}
+
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header h1,
+h2 {
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline coral;
+    line-break: auto;
+    margin: 5%;
+}
+
+.text {
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+    margin: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card {
+    position: relative;
+    width: 240px;
+    height: 400px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px;
+}
+
+.card .image {
+    position: absolute;
+    top: -110px;
+    left: 30%;
+    width: 400px;
+    height: 380px;
+    transform: translateX(-50%);
+    clip-path: ellipse();
+}
+
+.card .image::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -16px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 20px rgba(247, 169, 26, 0.863);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.image {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 340px;
+    height: 310px;
+}
+
+.imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.imgBox:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    width: 150%;
+    height: 200px;
+    padding: 20px 30px;
+}
+
+.social-icon i {
+    size: 20px;
+    color: blue;
+    margin-top: 170%;
+    margin-right: 8px;
+}
+
+.social-icon {
+    margin-left: 10%;
+}
+
+.social-icon i:hover {
+    padding: 2px 4px;
+    border-radius: 2px;
+    color: #fff;
+} */

@@ -14,12 +14,82 @@
     <!-- Style css -->
     <link rel="stylesheet" href="CSS/service.css">
 
-    <title>Services</title>
+    
 
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/0aff1cb243.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Inspiration&family=M+PLUS+1p:wght@300&family=Open+Sans&family=PT+Sans:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- js Script -->
+    <script src="JS/services.js"></script>
+
+    <title>ABAH</title>
+    <link rel="icon" href="./images/logo.jpeg" type="image/x-icon">
+
+    <title>Services</title>
 </head>
+
 
 <body>
     <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="./images/logo.jpeg" width="120px" height="50px" alt="logo">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fs-2 fw-bold ms-auto">
+                        <a class=" nav-link active" aria-current="page" href="./index.html">HOME</a>
+                        <a class="nav-link" href="./index.html">ABOUT US</a>
+                        <a class="nav-link" href="./service.html">SERVICES</a>
+                        <a class="nav-link" href="./gallery.html">GALLERY</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+
+    <!-- Landing Page -->
+
+    <div class="service-landing">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 text-center text-light" id="service">
+                    <h2><b>Afri Brand Ambassadors Hub</b></h2><br>
+                    <p class="fs-2">An ecosystem that connects influencers to brandsWe equip our influencers with enough skills and tools to bring the best out of them while guaranteeing them high returns.</p>
+                    <br>
+                    <p class="fw-bolder fs-2">Work hard, Smile all the way to the bank!</p><br>
+
+                    <button type="button" id="btn_" class="btn btn-secondary btn-lg"> <a href="#sn"></a>
+                     Join Now</button>
+                </div>
+                <div class="col-6">
+                    <img src="./images/services/starter.jpeg" height="80%" width="96%" alt="">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- form -->
+
+
         <nav>
           <div class="logo">
             <p>ABAH</p>
@@ -51,6 +121,7 @@
         </div>
     </div>
     
+
     <!-- Signup Form -->
     <div class="signupFrm" id="sn">
         <form action="" class="form">
@@ -65,6 +136,14 @@
                 <input type="email" class="input" id="email" placeholder="a" required>
                 <label for="email" class="label">Email</label>
             </div>
+
+
+            <div class="inputContainer">
+                <input type="text" class="input" placeholder="a" required id="name">
+                <label for="" class="label">Username</label>
+            </div>
+
+
         
             <div class="inputContainer">
                 <input type="text" class="input" placeholder="a" required>
@@ -75,6 +154,219 @@
                 <input type="password" class="input" placeholder="a" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                 <label for="psw" class="label">Password</label>
             </div>
+
+
+            <div class="inputContainer">
+                <input type="password" class="input" placeholder="a" id="psw1" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <label for="psw" class="label">Confirm Password</label>
+            </div>
+
+            <div class="checkbox" id="check">
+                <label><input type="checkbox"> I accept the Terms of Use & Privacy Policy </label>
+            </div>
+
+            <input type="submit" class="submitBtn" value="Sign up" id="signup">
+            <p><b>Already have an account? <a href="#log_" id="log">Login</a></b></p><br>
+
+        </form>
+    </div>
+
+    <!-- Login Form -->
+    <div class="signupFrm_" id="sn_">
+        <form action="" class="form">
+            <h6 class="title">Login</h6>
+
+            <div class="inputContainer">
+                <input type="text" class="input" placeholder="a" id="name_" required>
+                <label for="" class="label">Username</label>
+            </div>
+
+            <div class="inputContainer">
+                <input type="password" class="input" placeholder="a" id="psw_" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <label for="psw" class="label">Password</label>
+            </div>
+            <div class="checkbox" id="check">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+            <input type="submit" class="submitBtn" value="Login" id="log_">
+        </form>
+    </div>
+
+
+    <!-- services section -->
+
+    <div class="Services mt-2">
+        <div class="container">
+            <h4 class="text-center fw-bold text-uppercase fs-2">Why You should choose us?</h4>
+            <h5 class="text-center fw-bolder fs-2 mb-2">The Reason why ABAH is best.</h5>
+            <hr>
+            <br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card card1">
+                        <div class="card-body text-center">
+                            <div class="services-content">
+                                <i class="fa-solid fa-star"></i>
+                                <h5 class="card-title fw-bold fs-2">Influencer Authentication</h5>
+                                <p class="card-text fs-3">ABAH trains influencers to follow corprate rules and regulations and those who are the right fit for the products and services being promoted.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card card1">
+                        <div class="card-body text-center">
+
+                            <div class="services-content">
+                                <i class="fa-solid fa-square-poll-vertical"></i>
+                                <h5 class="card-title fw-bold fs-2">Influencer Training</h5>
+                                <p class="card-text fs-3">ABAH offers support, training and platform for young and aspiring influencer to undergo trainship for three monthandthn become our start pack.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card card1">
+                        <div class="card-body text-center">
+
+                            <div class="services-content">
+                                <i class="fa-solid fa-square-poll-vertical"></i>
+                                <h5 class="card-title fw-bold fs-2">Product Advertising</h5>
+                                <p class="card-text fs-3"> ABAH work with Cooperates in inducing consumers to purchase their product through communication channels such as television ,radio and social media.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card card1">
+                        <div class="card-body text-center text-center">
+                            <div class="services-content">
+                                <i class="fa-solid fa-spa"></i>
+                                <h5 class="card-title fw-bold fs-2">Social Media Management</h5>
+                                <p class="card-text fs-3">ABAH trains influencer on how to analyzing their social media audiences and developing strategy on creating their social media pages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services pricing -->
+    <div class="service-pricing mt-5">
+        <div class="container">
+            <h3 class="text-center fw-bold fs-1">Our Rates</h3>
+            <h5 class="text-center fw-bold fs-3 text-dark"> Our services for your pocket</h5>
+            <hr>
+            <div class="row mt-5">
+                <div class=" col-sm-6">
+                    <div class="card">
+                        <div class="card-body card2">
+                            <img src="./images/startup.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card card2">
+                        <div class="card-header text-center fw-bolder fs-2">
+                            Starter Cooperates
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center fs-3">Afri Brand influencers Hub will ensure startUp and SMEs get the best rate of advertising their product and they will enjoy the business since are starter packs will influencers will Ensure they give full service that fit the
+                                current business.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" row mt-5">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body card2">
+                            <img src="./images/cooperateteam.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-6">
+                    <div class="card card2">
+                        <div class="card-header text-center fw-bolder fs-2">
+                            Enterprises Cooperates
+                        </div>
+                        <div class="card-body card2">
+                            <p class="card-text text-center fs-3">For-profit business or company,ABAH team will ensure they receive great service from our influencers both Start Packs and the economic Class in advertising their product and they will enjoy the business since we will ensure
+                                they give full service that fit the current business and their pocket.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonoial section -->
+    <div class="Testimonial-section">
+        <br>
+        <div class="container">
+            <h3 class="text-center fw-bold fs-1 text-uppercase">Testimonials</h3>
+            <h5 class="text-center fw-bold">Hear from our clients.</h5>
+            <hr>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card card3">
+                        <img src="./images/Rensia.jpeg" class="card-img-top img-fluid">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold fs-2 text-secondary">Serine Rensia</h5>
+                            <span id="card3-span">Holgates Enterprise</span>
+                            <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <hr>
+                            <p class="card-text fs-3">ABAH influencers were great and easy to work with since they are flexible and their professional influencers give best on the work.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col sirFelix">
+                    <div class="card card3">
+                        <img src="./images/sirFelix.jpg" class="card-img-top img-fluid ">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold fs-2 text-secondary">Sir Felix </h5>
+                            <span id="card3-span">Sir Felix Collection & Designs</span><br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <hr>
+
+                            <p class="card-text fs-3">ABAH influencers were great and easy to work with since they are flexible and their professional influencers give best on the work.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card3">
+                        <img src="./images/Aisha.jpeg" class="card-img-top img-fluid">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bolder fs-2 text-secondary">Bi. Aisha Mwanaidi <br></h5>
+                            <span id="card3-span">Jikoni Matamu</span>
+                            <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                            <hr>
+                            <p class="card-text fs-3">ABAH influencers were great and easy to work with since they are flexible and their professional influencers give best on the work.</p>
+                        </div>
+                    </div>
+                </div>
+
         
             <div class="inputContainer">
                 <input type="password" class="input" placeholder="a" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
@@ -126,14 +418,26 @@
     <div id="message-2">
         <h4>Thank you for signing up. A member of our team will reach out to you"</h4>
     </div>
+
+
+
+            </div>
+        </div>
+
+        <!--Social Media -->
+        <div class="communication">
+            <a href="#" target="-blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="-blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" target="-blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="-blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <br>
+        <!-- Copyright -->
+        <div class="Copyright">
+            <p class="m-2 medium">Copyright &copy; ABAH 2022 <br>with Love by,<span id="Copyright">ABAH MANAGEMENT</span> </p>
+        </div>
+
 </body>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 
     <!-- js Script -->
     <script src="JS/services.js"></script>
